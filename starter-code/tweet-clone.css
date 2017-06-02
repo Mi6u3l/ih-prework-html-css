@@ -1,0 +1,109 @@
+body {
+  background-color: #f4f8f9;
+  font-family: helvetica;
+}
+
+.tweet-wrapper {
+  width: 100%;
+  display: inline-block;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.tweet-box {
+  width: 70%;
+  background-color: #ffffff;
+  border-radius: 10px;
+  display: inline-block;
+  border: solid 2px #e1e8ed
+}
+
+.tweet-content {
+  display: inline;
+  margin-top: 35px;
+}
+
+.tweet-info {
+  float: left;
+  padding-left: 35px;
+  text-align: left;
+}
+
+.tweet-follow {
+  float: right;
+  margin-right: 35px;
+}
+
+
+.tweet-profile-picture {
+  display: inline;
+}
+
+.tweet-user-info {
+  display: inline-block;
+  vertical-align: top;
+  padding-left: 14px;
+  font-size: 29px;
+  text-align: left;
+}
+
+.tweet-user-logo span {
+  font-weight: bold;
+  position: absolute;
+  padding-left: 10px;
+}
+
+.tweet-user-name span {
+  color: #697882;
+  font-size: 24px;
+}
+
+.tweet-validated-account {
+  position: absolute;
+  padding-left: 74px;
+}
+
+.tweet-message {
+  padding-top: 20px;
+  font-size: 30px;
+}
+
+.tweet-date {
+  color: #697882;
+  padding-top: 10px;
+  font-size: 26px;
+}
+
+.tweet-interaction {
+  color: #697882;
+  padding-top: 18px;
+  font-size: 28px;
+  display: inline-block;
+  padding-bottom: 30px;
+}
+
+.tweet-interaction div {
+  margin-right: 30px;
+  display: inline;
+}
+
+.tweet-interaction div span{
+  margin-left: 8px;
+}
+
+.tweet-follow {
+  border: solid 2px #55acee;
+  color: #55acee;
+  font-weight: bold;
+  font-size: 28px;
+  border-radius: 8px;
+  width: 134px;
+  text-align: right;
+  padding: 10px 22px 12px 12px;
+}
+
+.tweet-follow img {
+  position: absolute;
+  right: 352px;
+  top: 57px;
+}
